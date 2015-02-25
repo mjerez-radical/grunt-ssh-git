@@ -1,0 +1,36 @@
+{
+  "name": "grunt-ssh-git",
+  "version": "0.0.0",
+  "description": "sync files to server over ssh based on git commits",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mjerez-radical@github.com/mjerez-radical/grunt-ssh-git.git"
+  },
+  "keywords": [
+    "grunt",
+    "ssh",
+    "git",
+    "file",
+    "sync",
+    "deployment",
+    "continous"
+  ],
+  "author": "M-jerez@radical",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjerez-radical/grunt-ssh-git/issues"
+  },
+  "homepage": "https://github.com/mjerez-radical/grunt-ssh-git",
+  "dependencies": {
+    "git": "^0.1.5",
+    "git-wrapper": "^0.1.1",
+    "ssh2": "^0.4.4"
+  }
+}
