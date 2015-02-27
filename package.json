@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/node-git.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
   "dependencies": {
     "git": "^0.1.5",
     "git-wrapper": "^0.1.1",
+    "nodegit": "^0.2.7",
     "ssh2": "^0.4.4"
   }
 }

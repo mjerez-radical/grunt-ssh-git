@@ -4,12 +4,18 @@
  * and open the template in the editor.
  */
 
-var Git = require("../tasks/git.js");
-var git = new Git();
+var Repo = require('git').Repo;
+var Git = require('git').Git;
 
-git.exec("log" , function(err,output){
-	if(err){
-		console.error(output);
-	}
-	console.log(output);
+
+var repo = new Repo(".",function(err,repo){
+	
 });
+var git = new Git(".");
+
+
+
+
+
+
+

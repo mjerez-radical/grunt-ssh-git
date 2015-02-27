@@ -1,0 +1,11 @@
+commit c77efc1b2c23e368184265aeeeed8b0af8717b28
+Author: mjerez-radical <marlon.jerez@radical.ie>
+Date:   Wed Feb 25 15:26:20 2015 +0000
+
+    add ssh2 and git command wrapper
+
+commit 5b648ac62195486b24702590076247a849d53faa
+Author: Ma_Jerez <mjerez-radical@users.noreply.github.com>
+Date:   Wed Feb 25 10:28:23 2015 +0000
+
+    Initial commit
